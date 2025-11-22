@@ -11,7 +11,7 @@ const Button = ({title,type,onPress}) => {
         onPress={onPress}>
     <Text
         style={{
-          fontSize: 30,
+          fontSize: 27,
           color: type == "number" ? Colors.black : Colors.white,
         }}
       >
